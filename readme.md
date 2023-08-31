@@ -9,4 +9,4 @@ As I continue to learn new things, this Website will evolve. Consider it a work 
 
 **HTML & CSS (SCSS)**
 
-[View the Page] (https://JFujie.github.io/uib-final-project)
+[View the Page](https://JFujie.github.io/uib-final-project)
