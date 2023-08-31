@@ -25,6 +25,10 @@
       box-shadow: inset -20px -20px 60px #000c0c, inset 20px 20px 60px #003032;
       animation: beat 1s infinite;
       @include media-breakpoint-up(lg) {
+        width: 160px;
+        height: 160px;
+      }
+      @include media-breakpoint-up(xl) {
         width: 180px;
         height: 180px;
       }
@@ -33,6 +37,9 @@
       font-size: 8rem;
       animation: beat2 1s infinite;
       @include media-breakpoint-up(lg) {
+        font-size: 9rem;
+      }
+      @include media-breakpoint-up(xl) {
         font-size: 10rem;
       }
     }
@@ -43,12 +50,15 @@
       font-weight: 200;
       color: $spcl;
       @include media-breakpoint-up(lg) {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
       }
     }
     img {
       width: 8rem;
       @include media-breakpoint-up(lg) {
+        width: 9rem;
+      }
+      @include media-breakpoint-up(xl) {
         width: 10rem;
       }
     }
