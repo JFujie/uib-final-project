@@ -1,0 +1,22 @@
+{
+  "name": "uib-final-project",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "scripts": {
+    "start": "rm -rf dev-serve && parcel index.html --dist-dir dev-serve",
+    "build": "rm -rf build && parcel build src/index.html --dist-dir build --public-url ./",
+    "publish": "gh-pages -d build"
+  },
+  "author": "Julian Fujie Awiek Widjaja jfujie.aw@gmail.com https://github.com/JFujie",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  },
+  "Homepage": "https://JFujie.github.io/uib-final-project"
+}
+

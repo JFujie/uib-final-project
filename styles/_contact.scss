@@ -1,0 +1,35 @@
+@use "variables" as *;
+
+.contact-subheading {
+  text-align: center;
+  @include media-breakpoint-up(lg) {
+    text-align: center;
+  }
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  button {
+    width: 60%;
+  }
+}
+
+.logo-bot {
+  color: $txt-color;
+  font-size: 4rem;
+  display: block;
+  text-align: center;
+  margin-block: 5rem;
+  @include media-breakpoint-up(lg) {
+    font-size: 5rem;
+  }
+}

@@ -1,0 +1,73 @@
+@use "variables" as *;
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 5rem;
+  .project-card {
+    width: 320px;
+    height: 500px;
+    position: relative;
+    border: 5px solid $txt-color;
+    -webkit-box-shadow: 0px 10px 13px -7px #ffffff,
+      5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #ffffff,
+      5px 5px 15px 5px rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .card-content {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: -100%;
+      background: #192f2d89;
+      backdrop-filter: blur(5px);
+      padding: 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      transition: 0.6s;
+
+      .card-heading {
+        font-size: 3rem;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      .card-sub-heading {
+        font-size: 2rem;
+      }
+      .card-sub-heading-2 {
+        font-size: 1.7rem;
+        font-weight: 200;
+        font-style: italic;
+        color: $spcl;
+      }
+      .card-text {
+        font-size: 2.1rem;
+        margin: 4rem 0;
+      }
+      .card-button {
+        border: none;
+        outline: none;
+        padding: 1rem 2rem;
+        border-radius: 8px;
+        cursor: pointer;
+        a {
+          font-size: 2.1rem;
+          color: $bg-color;
+        }
+      }
+    }
+  }
+  .project-card:hover .card-content {
+    right: 0;
+  }
+}
