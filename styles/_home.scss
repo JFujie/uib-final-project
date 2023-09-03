@@ -123,6 +123,9 @@
       @include media-breakpoint-up(xxl) {
         width: 211px;
       }
+      a {
+        color: $bg-color;
+      }
     }
   }
   .social-container {
