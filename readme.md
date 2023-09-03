@@ -2,6 +2,8 @@
 
 ## Portfolio Website
 
+![Portfolio Preview](./img/portfolio-preview-final.png)
+
 This is my final project for the _User Interface Basics_ module of the Web Development course @ DCI.
 
 As I continue to hone my skills and learn new things, this Website will evolve.
