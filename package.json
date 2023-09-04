@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Portfolio Website",
   "scripts": {
-    "start": "rm -rf dev-serve && parcel index.html --dist-dir dev-serve",
-    "build": "rm -rf build && parcel build index.html --dist-dir build --public-url ./",
-    "publish": "gh-pages -d build"
+    "start": "rm -rf dev-serve && parcel ./src/index.html --dist-dir dev-serve",
+    "build": "rm -rf dist && parcel build ./src/index.html --dist-dir dist --public-url ./",
+    "publish": "gh-pages -d dist"
   },
   "author": "Julian Fujie Awiek Widjaja jfujie.aw@gmail.com https://github.com/JFujie",
   "license": "ISC",
