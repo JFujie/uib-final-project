@@ -2,7 +2,7 @@
 
 ## Portfolio Website
 
-![Portfolio Preview](./img/portfolio-preview-final.png)
+![Portfolio Preview](./src/img/portfolio-preview-final.png)
 
 This is my final project for the _User Interface Basics_ module of the Web Development course @ DCI.
 
